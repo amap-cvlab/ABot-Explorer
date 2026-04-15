@@ -1,0 +1,18 @@
+model_path: YOUR_MODEL_PATH
+result_dir: YOUR_RESULT_DIR
+graph_path: YOUR_HABITAT_GRAPH_PATH
+use_back: True
+visualize: True
+max_step: 9500
+repeat_num: 1
+
+camera_height: 0.5
+camera_intrinsics: '1 PINHOLE 720 640 252.075 252.075 360 320'
+step_dist: 0.25
+step_angle: 30
+resolution: 0.05
+
+vis_dist: 4.0
+merge_dist: 0.6
+merge_dir: 30
+metric_dist: 3.0

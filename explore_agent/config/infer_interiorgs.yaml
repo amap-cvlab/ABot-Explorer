@@ -1,0 +1,25 @@
+model_path: YOUR_MODEL_PATH
+map_dir: YOUR_GT_MAP_DIR
+result_dir: YOUR_RESULT_DIR
+
+render_url: 'http://30.79.32.105:7001/render_gs'
+
+mode: infer
+prompt_mode: 'roadmap'
+decision_mode: normal
+use_back: True
+visualize: True
+max_step: 1000
+repeat_num: 1
+num_workers: 4
+
+camera_height: 0.45
+camera_intrinsics: '1 PINHOLE 720 640 252.075 252.075 360 320'
+step_dist: 0.25
+step_angle: 30
+resolution: 0.05
+
+vis_dist: 2.0
+merge_dist: 1.0
+merge_dir: 30
+metric_dist: 2.0

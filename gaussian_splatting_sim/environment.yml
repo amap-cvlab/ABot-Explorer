@@ -1,0 +1,31 @@
+name: gaussian_splatting
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile=0.8.1
+  - python=3.8 # 3.7.13
+  - pip=22.3.1
+  - pytorch=1.12.1 # 2.0
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - tqdm
+  - matplotlib
+  - numba=0.58.1
+  - commentjson # and tcnn for ges pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+  - imageio=2.34.0 # for save mp4
+  - imageio-ffmpeg=0.5.1 # for save mp4
+  - e3nn=0.5.3 # for norm back filter
+  - mmengine=0.5.0 # for car Inpainting
+  - omegaconf # for car Inpainting
+  - kornia # for car Inpainting
+  - pyyaml # for car Inpainting
+  # - transformers # pip install transformers --no-dependencies # for car Inpainting
+  # - accelerate # pip install accelerate --no-dependencies # for car Inpainting
+  # - peft=0.10.0 # pip install peft==0.10.0 --no-dependencies # for car Inpainting
+  # - conda install pytorch-lightning -c conda-forge # for car Inpainting
+  - pip:
+    - submodules/diff-plane-rasterization
+    - submodules/simple-knn
