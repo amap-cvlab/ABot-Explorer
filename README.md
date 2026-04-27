@@ -1,5 +1,9 @@
 # Abot Explorer
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.19034-b31b1b.svg)](http://arxiv.org/abs/2604.19034)
+
+**Paper:** http://arxiv.org/abs/2604.19034
+
 Abot Explorer is an autonomous exploration agent powered by vision-language models for 3D scene understanding and navigation. It supports inference and evaluation on both **3D Gaussian Splatting (3DGS)** scenes (via PGSR) and **Habitat** simulated environments.
 
 ## Table of Contents
