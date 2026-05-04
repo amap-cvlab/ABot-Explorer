@@ -45,7 +45,7 @@ cd abot_explorer
 
   For InteriorGS, there is an additional set of ground-truth map data for evaluation metrics, including occ map, object labels, room polygons, and annotated roadmaps.
   InteriorGS, MP3D, and HM3D all include a set of fixed exploration starting points.
-  These can be downloaded from HuggingFace (**[comming soon]**).
+  These can be downloaded from HuggingFace (**[https://huggingface.co/q32811697/abot-explorer-3B]**).
 
 ### Data Structure Example
 
